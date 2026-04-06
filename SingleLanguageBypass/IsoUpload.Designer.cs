@@ -28,6 +28,7 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(IsoUpload));
 			ChooseIso = new MaterialSkin.Controls.MaterialButton();
 			lblSelectedISO = new MaterialSkin.Controls.MaterialLabel();
 			ChooseIsoLanguage = new MaterialSkin.Controls.MaterialComboBox();
@@ -122,6 +123,7 @@
 			Controls.Add(ChooseIsoLanguage);
 			Controls.Add(lblSelectedISO);
 			Controls.Add(ChooseIso);
+			Icon = (Icon)resources.GetObject("$this.Icon");
 			Margin = new Padding(3, 4, 3, 4);
 			MaximizeBox = false;
 			MinimizeBox = false;
