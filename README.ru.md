@@ -4,9 +4,6 @@
 
 **Простой способ обойти ограничение Single Language в Windows 11 Single Language Edition без полной переустановки системы.**
 
-![GitHub stars](https://img.shields.io/github/stars/AdePavel/SingleLanguageBypass)
-![License](https://img.shields.io/github/license/AdePavel/SingleLanguageBypass)
-
 ## Оглавление
 
 - [Что делает программа](#-что-делает-программа)
