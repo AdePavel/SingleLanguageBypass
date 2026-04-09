@@ -25,17 +25,17 @@ The program allows you to upgrade Windows **Single Language Edition** to **Windo
 
 ---
 ## Description of the problem
-When purchasing a new laptop, the system often comes with **Windows 11 Single Language Edition** preinstalled. In this edition, changing the interface language **is not provided** by Microsoft.
+When purchasing a new laptop, the system often comes with **Windows 11 Single Language Edition** preinstalled. In this edition, changing the interface language **is not provided** by Microsoft.<br>
 The officially recommended way is a full Windows reinstallation, which leads to the loss of factory applications and the need to reinstall drivers manually.
 
 ---
 ## Solution
-**SingleLanguageBypass automates the upgrade of the Windows 11 Single Language Edition edition to Windows 11 Home** using standard Microsoft mechanisms, while preserving **all drivers, applications, and data**.
+**SingleLanguageBypass automates the upgrade of the Windows 11 Single Language Edition edition to Windows 11 Home** using standard Microsoft mechanisms, while preserving **all drivers, applications, and data**.<br>
 Everything happens quickly and with minimal user involvement.
 
 ---
 ## Who is this useful for
-- **Regular users** who do not want to spend time and effort on a full Windows reinstallation followed by manual installation of all drivers.
+- **Regular users** who do not want to spend time and effort on a full Windows reinstallation followed by manual installation of all drivers.<br>
 - **Laptop stores and service centers** — for quick automated installation of the required interface language for their customers.
 
 ---
