@@ -26,7 +26,7 @@ The program allows you to upgrade Windows **Single Language Edition** to **Windo
 
 ## Problem description
 
-When purchasing a new laptop, the system often comes with **Windows 11 Single Language Edition** preinstalled. In this edition, changing the interface language **is not provided** by Microsoft.
+**When purchasing a new laptop, the system often comes with **Windows 11 Single Language Edition** preinstalled. In this edition, changing the interface language **is not provided** by Microsoft.
 The officially recommended way is a full Windows reinstallation, which leads to the loss of factory applications and the need to reinstall drivers manually.
 ---
 
