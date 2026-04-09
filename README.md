@@ -1,7 +1,7 @@
 [Русская версия](README.ru.md)
 
 # SingleLanguageBypass
-**Simple way to bypass Single Language limitation in Windows 11 Single Language Edition without reinstalling the system.**<br>
+**Tool for upgrading Windows 11 Single Language Edition to Windows 11 Home without losing applications, data, and drivers.** <br>
 <br>
 [Download SingleLanguageBypass.exe](https://github.com/AdePavel/SingleLanguageBypass/releases/download/v2.0/SingleLanguageBypass.exe)
 <br>
@@ -13,40 +13,46 @@
 - [Who is this useful for](#who-is-this-useful-for)
 - [How the program works](#how-the-program-works)
 - [Step-by-step usage instructions](#-step-by-step-usage-instructions)
-- [Important tips and warnings](#️-important-tips-and-warnings)
+- [⚠️ Important tips and warnings](#️-important-tips-and-warnings)
 - [License](#license)
-
+<br>
 ---
+<br>
 ## ✨ What the program does
-The program allows you to upgrade Windows **Single Language Edition** to a full **Windows Home** with the ability to freely change the interface language, **while preserving**:
+The program allows you to upgrade Windows **Single Language Edition** to **Windows Home** with the ability to change the interface language, **while preserving**:
 - all installed drivers and programs
 - all user files and settings
-- the current official Windows license
-
+- the active official Windows license
+<br>
 ---
-## Description of the problem
-When buying a new laptop, the system often comes with **Windows 11 Single Language Edition** installed. In this edition, **you cannot change the interface language** — it is rigidly fixed.
-The only official way **until now** was a **full Windows reinstall**, which led to the loss of all pre-installed factory programs, the need to reinstall drivers from scratch, and a large waste of time.
-
+<br>
+## Problem description
+When purchasing a new laptop, the system often comes with **Windows 11 Single Language Edition** preinstalled. In this edition, changing the interface language **is not provided** by Microsoft.
+The officially recommended way is a full Windows reinstallation, which leads to the loss of factory applications and the need to reinstall drivers manually.
+<br>
 ---
+<br>
 ## Solution
-**SingleLanguageBypass** uses a **unique algorithm** (fully developed by me and never published anywhere before), which allows you to upgrade the system edition to Windows Home **while preserving all drivers, applications and data**.
+**SingleLanguageBypass automates the upgrade of the Windows 11 Single Language Edition edition to Windows 11 Home** using standard Microsoft mechanisms, while preserving **all drivers, applications, and data**.
 Everything happens quickly and with minimal user involvement.
-
+<br>
 ---
-## Who is this useful for
-- **Regular users** who do not want to spend time and effort on a full Windows reinstall followed by manual installation of all drivers.
-- **Laptop stores and service centers** — for quick automated installation of the required interface language for their clients.
-
+<br>
+## Who is it useful for
+- **Regular users** who do not want to spend time and effort on a full Windows reinstallation followed by manual installation of all drivers.
+- **Laptop stores and service centers** — for quick automated installation of the required interface language for their customers.
+<br>
 ---
+<br>
 ## How the program works
 1. Changing the Windows key to the official Generic Home key
 2. Installing the language pack through standard Windows settings
 3. Mounting the ISO image and copying files to the desktop
-4. Configuring the registry for the selected language
-5. Restart and launch `Setup.exe` → upgrade to Home
-
+4. Configuring system parameters
+5. Rebooting and performing the system upgrade to Windows Home
+<br>
 ---
+<br>
 ## 📖 Step-by-step usage instructions
 **The system must be connected to the internet!**
 
@@ -73,10 +79,10 @@ Everything happens quickly and with minimal user involvement.
    
    ![](screenshots/3.png)
 
-   **Step 3 — Prepare ISO**<br>
-   Click **"3. Prepare ISO"**.<br>
-   Select the downloaded ISO file and the corresponding language → click **"Start"**.<br>
-   The program will copy the files to the desktop and configure the registry. Agree to restart.<br>
+   **Step 3 — Prepare ISO**.<br>
+   Click **"3. Prepare ISO"**..<br>
+   Select the downloaded ISO file and the corresponding language → click **"Start"**..<br>
+   The program will copy the files to the desktop and configure the necessary system parameters. Agree to restart..<br>
    
    ![](screenshots/4.gif)
 
@@ -85,15 +91,17 @@ Everything happens quickly and with minimal user involvement.
    Follow the installer instructions to upgrade to Windows Home.<br>
    
    ![](screenshots/5.gif)
-
+<br>
 ---
+<br>
 ## ⚠️ Important tips and warnings
 - **Languages must match exactly**:
   ISO file language = Language pack language = Language selected in the program at step 3.
-- After step 3, Windows may work **unstable** — this is normal. That is why the program lowers the UAC level in advance to avoid unnecessary bugs.
-- **After completion** it is recommended to return UAC to its original position.
-- At step 4 **disable Windows Update check** — the process will go much faster.
-- **Use the program at your own risk.**
+- After step 3, Windows may work **unstable** — this is normal. That is why the program lowers the UAC level in advance to avoid extra bugs.
+- **After completion**, it is recommended to return UAC to its original position.
+- At step 4, **disable Windows Update checking** — the process will go significantly faster.
+- **The program is intended only for devices with a legitimate OEM license of Windows 11 Single Language Edition.**
+- **Use at your own risk.**
 
 ---
 ## License
