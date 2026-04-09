@@ -30,7 +30,7 @@ The officially recommended way is a full Windows reinstallation, which leads to 
 
 ---
 ## Solution
-**SingleLanguageBypass automates the upgrade of the Windows 11 Single Language Edition edition to Windows 11 Home** using standard Microsoft mechanisms, while preserving **all drivers, applications, and data**.<br>
+**SingleLanguageBypass automates the upgrade of the Windows 11 Single Language Edition to Windows 11 Home** using standard Microsoft mechanisms, while preserving **all drivers, applications, and data**.<br>
 Everything happens quickly and with minimal user involvement.
 
 ---
